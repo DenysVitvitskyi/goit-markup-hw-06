@@ -231,6 +231,7 @@ z-index: 1;
 }
 
 .close {
+background: none;
 position: absolute;
 display: flex;
 top: 8px;
@@ -292,7 +293,7 @@ text-align: center;
 }
   
 .form-field {
-margin-bottom: 28px;
+margin-bottom: 10px;
 display: flex;
 flex-direction: column;
 }
@@ -770,6 +771,7 @@ margin-left: 10px;
 
 .down .contaner {
 display: flex;
+justify-content: space-between;
 }
 
 .down-social {
